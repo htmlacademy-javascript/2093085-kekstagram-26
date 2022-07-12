@@ -56,6 +56,6 @@ function createDescription() {
 }
 
 //Генерация объекта нужной длины SIMILAR_DESCRIPTIONS_COUNT из итоговой функции createDescription
-const similarDescription = Array.from({length: SIMILAR_DESCRIPTIONS_COUNT}, createDescription);
+const createDescriptions = Array.from({length: SIMILAR_DESCRIPTIONS_COUNT}, createDescription);
 
-export {similarDescription};
+export {createDescriptions};
